@@ -1,0 +1,19 @@
+{
+  "name": "angular-example-backend",
+  "version": "1.0.0",
+  "description": "a backend project to angular-example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Cassio Carvalho",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
